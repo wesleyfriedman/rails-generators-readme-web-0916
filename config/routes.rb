@@ -10,6 +10,6 @@ Rails.application.routes.draw do
 
   get 'categories/show'
 
-  resources :posts, only: [:index, :show, :new, :create, :edit, :update]
+  resources :posts, only: [:index, :show, :new, :create, :edit, :update, :post_status]
   resources :categories
 end
